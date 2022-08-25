@@ -10,4 +10,12 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+To set up a local environment for the first time, install Docker on your system. 
+
+Once this is done, ensure it's properly set up by running "docker -v" and "docker-compose -v" in your terminal.
+
+Next, navigate to the Anythink root directory and run "docker-compose up". NOTE: Make sure Docker is currently running.
+
+After this is done, test your local connection here: http://localhost:3000/api/ping 
+
+If this works, then follow this link to complete your first-time account setup: http://localhost:3001/register 
